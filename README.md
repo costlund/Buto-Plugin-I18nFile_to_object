@@ -1,7 +1,7 @@
 # Buto-Plugin-I18nFile_to_object
 Set translation file to a Javascript object to later access it when using method PluginI18nJson_v1.i18n. 
 
-##Widget
+## Widget
 Set I18N folder and what object to set.
 ```
 type: widget
@@ -15,7 +15,7 @@ data:
         object: PluginSomePlugin.i18n
 ```
 
-##Translation
+## Translation
 Example of using object when translate.
 ```
 function PluginSomePlugin(){
